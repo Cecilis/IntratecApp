@@ -1,0 +1,73 @@
+﻿<!DOCTYPE HTML>
+<html class="no-js" lang="es-ES">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>:: First Central International Bank ::</title>
+    <!--meta http-equiv="Page-Enter" Principal="revealtrans(duration=2,transition=3)">
+    <meta http-equiv="Page-Exit" Principal="blendtrans(duration=2)"-->
+    <!--[if gte IE 9]>
+        <style type="text/css">
+            .gradient {
+                filter: none;
+            }
+        </style>
+    <![endif]-->
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0"/>  
+    <meta http-equiv="Page-Enter" Principal="revealtrans(duration=2,transition=3)" />
+    <meta http-equiv="Page-Exit" Principal="blendtrans(duration=2)" />
+
+    <link href="images/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+    <link rel="shorcut icon" href="images/favicon.ico" />  
+
+    <link href="styles/thrColFixHdr.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+    function abrirEnlace_a() {
+        if (screen.width == 800 & screen.height == 600)
+            var resolucion = 'width=790px, height=600px';
+        else if (screen.width == 1024 & screen.height == 768)
+            var resolucion = 'width=1004px, height=768px';
+        else if (screen.width == 1280 & screen.height == 768)
+            var resolucion = 'width=1270px, height=768px';
+        else if (screen.width == 1280 & screen.height == 800)
+            var resolucion = 'width=1270px, height=768px';
+        else if (screen.width == 1280 & screen.height == 1024)
+            var resolucion = 'width=1270px, height=965px';
+        else if (screen.width == 1280 & screen.height == 770)
+            var resolucion = 'width=1270px, height=700px';
+        else (screen.width == 1280 & screen.height == 770)
+        var resolucion = 'width=1270px, height=700px';
+
+        window.open('Index.aspx', 'IntraTec', 'top=0, left=0, width=' + (screen.width*90/100) + ', height=' + screen.height + ', center=yes, type = fullWindow, fullscreen=yes, help=no, status=no, menubar=no, resizable=no, border=thin, location=no, toolbar=no, titlebar=no')
+        window.setTimeout("window.close(true)", 20);
+    }
+
+
+    function f_open_window_max( aURL, aWinName )
+    {
+        var wOpen;
+        var sOptions;
+
+        sOptions = 'top=0, left=0,status=no,menubar=no,location=no,scrollbars=yes,fullscreen=yes,resizable=no,toolbar=no,center=yes,type=fullWindow';
+        sOptions = sOptions + ',width=' + (screen.availWidth - 10).toString();
+        sOptions = sOptions + ',height=' + (screen.availHeight - 122).toString();
+        sOptions = sOptions + ',screenX=0,screenY=0,left=0,top=0';
+
+        wOpen = window.open( '', aWinName, sOptions );
+        wOpen.location = aURL;
+        wOpen.focus();
+        wOpen.moveTo(0, 0);
+        wOpen.resizeTo(screen.width, screen.height);
+        window.setTimeout("window.close(true)", 0);
+        return wOpen;
+    }
+
+</script>
+
+</head>
+<body onload="f_open_window_max('Index.aspx', 'IntraTec');">
+</body>
+</html>

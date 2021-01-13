@@ -1,0 +1,10 @@
+﻿.feedEkList{width:100%; list-style:none outside none;background-color:#FFFFFF; border:1px solid #D3CAD7; padding:4px 6px; color:#3E3E3E;}
+.feedEkList li{border-bottom:1px solid #D3CAD7; padding:5px;}
+.feedEkList li:last-child{border-bottom:none;}
+.itemTitle a{font-weight:bold; color:#00293f !important; text-decoration:none; font-family: “Lucida Grande”, Tahoma; font-size:11px; }
+.itemTitle a:hover{ text-decoration:underline }
+.itemDate{font-size:10px;color:#AAAAAA; font-family: “Lucida Grande”, Tahoma; text-align:right;}
+.itemContent {display:block; width:100%; height:100%; position:relative;font-family: “Lucida Grande”, Tahoma; font-size:11px; color:#000000; margin-bottom:10px; overflow:auto;}
+.itemContent img { max-width:50%; height:auto;  display:block;}
+.itemContent iframe{width:100%; min-height:250px; display:block;}
+.itemContent div{width:100%; height:auto; display:block;}

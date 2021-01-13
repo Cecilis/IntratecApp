@@ -1,0 +1,348 @@
+﻿    .tablaMaquetacionInicio
+    {
+        border-style: none;
+        border-color: inherit;
+        border-width: 0px;
+        position:relative;
+        width: 100%;
+        text-align:center;
+        vertical-align:middle;
+        margin-top:5%;
+    }
+    
+    .colCentralTM
+    {
+        width: 40%;
+        height: 17px;
+    }
+
+    .colIzquierdaM
+    {
+        width:30%;
+        height: 17px;
+        
+    }
+
+    .colDerechaM
+    {
+        width:30%;
+        height: 17px;
+    }
+       
+    .CampoTablaBorde
+    {
+        background:#ECF2F6;
+        border-right: 1px solid #C6D5E1;   
+        border-bottom: 1px solid #C6D5E1;   
+        color: #22225D;
+        text-align:left;        
+        }
+       
+    .CampoTabla 
+    {
+        background:#ECF2F6; 
+        color: #22225D;
+        text-align:left;        
+        }
+           
+   .TituloTabla 
+    {
+        background:#4B708D;
+        border-right: 1px solid #C6D5E1;   
+        border-bottom: 1px solid #C6D5E1;   
+        color: #FFFFFF;
+        text-align:left;
+        
+        }
+
+    .tablaMaquetacion
+    {
+        position:absolute;
+        width: 100%;
+        height: auto;
+        background-color:#FFF;
+        border:0px;
+        text-align:center;
+        vertical-align:middle;
+    }
+
+    .tablaMaquetacionFondoTransparente
+    {
+        position:absolute;
+        width: 100%;
+        height: auto;
+        background-color:transparent;
+        border:0px;
+        text-align:center;
+        vertical-align:middle;
+    }
+
+
+    .tablaContenido
+    {
+        border-style: none;
+        border-color: inherit;
+        border-width: 0px;
+        position:relative;
+        width: 100%;
+        height: auto;
+        text-align:center;
+        vertical-align:middle;
+        top: 0px;
+        left: 0px;
+    }
+    
+    .iFrame
+    {
+        position:absolute;
+        width: 100%;
+        height: 0px;
+        text-align:center;
+        vertical-align:middle;
+        top: 0px;
+        left: 0px;
+    }
+
+    .tablaContenidoFormulario
+    {
+        border-style: none;
+        border-color: inherit;
+        border-width: 0px;  
+        width: 100%;
+        height: auto;
+        cellspacing:1px;
+        cellpadding:1px;
+        vertical-align:middle;
+        background:#ecf8fb;
+    }
+
+    .tablaContenidoFormularioFondoTransparente
+    { 
+        width: 100%;
+        height: auto;
+        text-align:center;       
+        vertical-align:middle;
+        overflow:hidden;
+    }
+    
+    .tablaContenidoBorde
+    {
+        position:relative;
+        width: 100%;
+        height: auto;
+        background-color:#FFF;
+        border:1px solid #CCC;
+        text-align:center;
+        vertical-align:middle;
+    }
+    .col5Divisores 
+    {
+        height: 17px;   
+     }
+
+
+    .col5ContenidoCentrado
+    {
+        width:80%;
+        height: 17px;   
+     }
+    .col5Contenido 
+    {
+        height: 17px;   
+     }
+    
+    .colUnica 
+    {
+        width:100%;
+        height: 17px;        
+        }
+        
+    .colIzquierda
+    {
+        width:5%;
+        height: 17px;
+    }
+        
+    .colCentralT
+    {
+        width: 90%;
+        height: 17px;
+    }
+
+    .colCentralI
+    {
+        width:45%;
+        height: 17px;
+    }
+
+    .colCentralD
+    {
+        width:45%;
+        height: 17px;
+    }
+
+    .colDerecha
+    {
+        width:5%;
+        height: 17px;
+    }   
+        
+    tablaLogos 
+    {
+        width: 80px;
+        height: auto;
+        float:left;    
+        margin:5px;  
+    }
+    
+    .celdaLogos
+    {
+        width:80px;
+        height: 17px;
+        text-align:center;
+    }
+    
+   .col7Divisor 
+    {
+        width:25%;
+        height: 17px;
+        text-align:center;        
+        }
+        
+   .col7Contenido
+    {
+        width:6.25%;
+        height: 17px;
+        text-align:center;        
+        }       
+        
+   .col6Contenido
+    {
+        width:15%;
+        height: 17px;
+       
+        }           
+        
+    .col6Divisor
+    {
+        width:15%;
+        height: 17px;
+       
+        }
+
+    .col04_100
+    {
+        width:4%;
+        height: 18px;
+    }  
+        
+    .col10_100
+    {
+        vertical-align:middle;
+        }   
+    
+    .col20_100
+    {
+        width:20%;
+        vertical-align:middle;
+        height:18px;
+    }
+    
+    .col25_100
+    {
+        width:25%;
+        vertical-align:middle;
+        height:18px;
+    }    
+        
+    .col30_100
+    {
+        width:30%;
+        vertical-align:middle;
+        height:18px;
+    }
+            
+    .col40_100
+    {
+        vertical-align:middle;
+        }      
+                
+    .col45_100
+    {
+        width:45%;
+        vertical-align:middle;
+        height:18px;
+    }   
+         
+    .col50_100
+    {   
+        vertical-align:middle;
+        height:18px;
+        }                 
+
+    .col60_100
+    {
+        vertical-align:middle;
+        height:18px;
+    }
+            
+    .col75_100
+    {
+        width:75%;
+        height: 18px;    
+        }
+    
+    .col90_100
+    {
+        width:90%;
+        height: 18px;
+    }     
+    
+    .col92_100
+    {
+        width:92%;
+        height: 18px;
+    }    
+    
+    .col100_100
+    {
+        width:100%;
+        height: 18px;
+        }  
+        
+    .col100_100F
+    {
+        display:block;
+        position:absolute;
+        width:100%;
+        height:100%;
+        }         
+    
+    .col64_100
+    {
+        width:64%;
+        height: 18px;
+        }   
+    
+    .col21_100
+    {
+        width:21%;
+        height: 18px;   
+        }
+        
+    .col44_100
+    {
+        width:44%;
+        height: 18px;     
+        }                  
+        
+    .col92_100
+    {
+        width:92%;
+        height: 18px;    
+        } 
+        
+    .col90_100
+    {
+        height:21px;
+    }                    

@@ -1,0 +1,52 @@
+﻿.carrusel{
+height:1024px;
+overflow:hidden;
+width:100%;
+}
+
+.bloque-imagenes{
+margin:0 0 0 12px;
+padding:0;
+}
+
+.bloque-imagenes li
+{
+    list-style:none;
+    padding:0;
+    margin-bottom:12px;
+    height:222px;
+    width: 400px;
+    margin-top: 0;
+    text-align:center;    
+}
+
+.bloque-imagenes li img{
+border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    text-align:center;
+}
+
+.bloque-imagenes a:hover img{
+border:1px #fff solid;
+}
+
+
+.FondoFicha 
+{
+    background:url('../images/FichaFondo.png') no-repeat center;
+    border-bottom: 2px solid #CCCCCC;
+    border-right: 2px solid #CCCCCC; 
+    height:222px; 
+    width:400px;
+    text-align:center;
+    vertical-align:middle;
+    }
+    
+   
+    
+.Ficha
+{
+    width:100%;
+    text-align:center;
+}

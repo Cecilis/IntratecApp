@@ -1,0 +1,312 @@
+********** 01/08/2013 10:15:46 p.m. **********
+Inner Exception Type: System.Web.HttpException
+Inner Exception: El archivo no existe.
+Inner Source: System.Web
+Inner Stack Trace: 
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+Exception Type: System.Web.HttpException
+Exception: Error HTTP tipo 4xx.
+Source: ~/Errores/HttpErrorPage
+Stack Trace: 
+********** 01/08/2013 10:22:33 p.m. **********
+Inner Exception Type: System.Web.HttpException
+Inner Exception: El archivo no existe.
+Inner Source: System.Web
+Inner Stack Trace: 
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+Exception Type: System.Web.HttpException
+Exception: Error HTTP tipo 4xx.
+Source: ~/Errores/HttpErrorPage
+Stack Trace: 
+********** 01/08/2013 10:33:04 p.m. **********
+Inner Exception Type: System.Web.HttpException
+Inner Exception: El archivo no existe.
+Inner Source: System.Web
+Inner Stack Trace: 
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+Exception Type: System.Web.HttpException
+Exception: Error HTTP tipo 4xx.
+Source: ~/Errores/HttpErrorPage
+Stack Trace: 
+********** 01/08/2013 10:37:06 p.m. **********
+Exception Type: System.Web.HttpCompileException
+Exception: c:\inetpub\wwwroot\Sites\Intratec_App\IntratecApp\UsuariosAdmin.aspx(114): error CS1061: 'ASP.usuariosadmin_aspx' no contiene una definición de 'btnBusquedaAvanzada_Click' ni se encontró ningún método de extensión 'btnBusquedaAvanzada_Click' que acepte un primer argumento de tipo 'ASP.usuariosadmin_aspx' (¿falta una directiva using o una referencia de ensamblado?)
+Source: Generado en página por defecto
+Stack Trace: 
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   en System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   en System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   en System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   en System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 01/08/2013 10:37:56 p.m. **********
+Inner Exception Type: System.Web.HttpException
+Inner Exception: El archivo no existe.
+Inner Source: System.Web
+Inner Stack Trace: 
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+Exception Type: System.Web.HttpException
+Exception: Error HTTP tipo 4xx.
+Source: ~/Errores/HttpErrorPage
+Stack Trace: 
+********** 01/08/2013 10:54:32 p.m. **********
+Inner Exception Type: System.Web.HttpException
+Inner Exception: El archivo no existe.
+Inner Source: System.Web
+Inner Stack Trace: 
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+Exception Type: System.Web.HttpException
+Exception: Error HTTP tipo 4xx.
+Source: ~/Errores/HttpErrorPage
+Stack Trace: 
+********** 01/08/2013 10:56:04 p.m. **********
+Inner Exception Type: System.Web.HttpException
+Inner Exception: El archivo no existe.
+Inner Source: System.Web
+Inner Stack Trace: 
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+Exception Type: System.Web.HttpException
+Exception: Error HTTP tipo 4xx.
+Source: ~/Errores/HttpErrorPage
+Stack Trace: 
+********** 01/08/2013 11:15:32 p.m. **********
+Exception Type: System.Web.HttpCompileException
+Exception: c:\inetpub\wwwroot\Sites\Intratec_App\IntratecApp\UsuariosAdmin.aspx(114): error CS1061: 'ASP.usuariosadmin_aspx' no contiene una definición de 'btnBusquedaAvanzada_Click' ni se encontró ningún método de extensión 'btnBusquedaAvanzada_Click' que acepte un primer argumento de tipo 'ASP.usuariosadmin_aspx' (¿falta una directiva using o una referencia de ensamblado?)
+Source: Generado en página por defecto
+Stack Trace: 
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   en System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   en System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   en System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   en System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 01/08/2013 11:18:34 p.m. **********
+Inner Exception Type: System.Web.HttpException
+Inner Exception: El archivo no existe.
+Inner Source: System.Web
+Inner Stack Trace: 
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+Exception Type: System.Web.HttpException
+Exception: Error HTTP tipo 4xx.
+Source: ~/Errores/HttpErrorPage
+Stack Trace: 
+********** 01/08/2013 11:27:18 p.m. **********
+Inner Exception Type: System.Web.HttpException
+Inner Exception: El archivo no existe.
+Inner Source: System.Web
+Inner Stack Trace: 
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+Exception Type: System.Web.HttpException
+Exception: Error HTTP tipo 4xx.
+Source: ~/Errores/HttpErrorPage
+Stack Trace: 
+********** 01/08/2013 11:30:58 p.m. **********
+Inner Exception Type: System.Web.HttpException
+Inner Exception: El archivo no existe.
+Inner Source: System.Web
+Inner Stack Trace: 
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+Exception Type: System.Web.HttpException
+Exception: Error HTTP tipo 4xx.
+Source: ~/Errores/HttpErrorPage
+Stack Trace: 
+********** 01/08/2013 11:34:52 p.m. **********
+Inner Exception Type: System.Web.HttpParseException
+Inner Exception: La etiqueta contiene atributos 'Drag' duplicados.
+Inner Source: System.Web
+Inner Stack Trace: 
+   en System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   en System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   en System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+Exception Type: System.Web.HttpParseException
+Exception: La etiqueta contiene atributos 'Drag' duplicados.
+Source: Generado en página por defecto
+Stack Trace: 
+   en System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   en System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   en System.Web.UI.TemplateParser.ParseInternal()
+   en System.Web.UI.TemplateParser.Parse()
+   en System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   en System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   en System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   en System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   en System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   en System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   en System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 01/08/2013 11:36:37 p.m. **********
+Inner Exception Type: System.NullReferenceException
+Inner Exception: Referencia a objeto no establecida como instancia de un objeto.
+Inner Source: IntratecApp
+Inner Stack Trace: 
+   en IntraTecApp.UsuariosAdmin.btnBusquedaAvanzada_Click(Object sender, ImageClickEventArgs e) en C:\inetpub\wwwroot\Sites\Intratec_App\IntratecApp\UsuariosAdmin.aspx.cs:línea 225
+   en System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   en System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   en System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   en System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   en System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   en System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Se produjo una excepción de tipo 'System.Web.HttpUnhandledException'.
+Source: Generado en página por defecto
+Stack Trace: 
+   en System.Web.UI.Page.HandleError(Exception e)
+   en System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   en System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   en System.Web.UI.Page.ProcessRequest()
+   en System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   en System.Web.UI.Page.ProcessRequest(HttpContext context)
+   en ASP.usuariosadmin_aspx.ProcessRequest(HttpContext context) en c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\a9cab8c1\35042e8a\App_Web_usuariosadmin.aspx.cdcab7d2.qtpbzzbs.0.cs:línea 0
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 01/08/2013 11:39:53 p.m. **********
+Inner Exception Type: System.Web.HttpException
+Inner Exception: El archivo no existe.
+Inner Source: System.Web
+Inner Stack Trace: 
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+Exception Type: System.Web.HttpException
+Exception: Error HTTP tipo 4xx.
+Source: ~/Errores/HttpErrorPage
+Stack Trace: 
+********** 01/08/2013 11:44:22 p.m. **********
+Inner Exception Type: System.Web.HttpException
+Inner Exception: El archivo no existe.
+Inner Source: System.Web
+Inner Stack Trace: 
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+Exception Type: System.Web.HttpException
+Exception: Error HTTP tipo 4xx.
+Source: ~/Errores/HttpErrorPage
+Stack Trace: 
+********** 01/08/2013 11:48:21 p.m. **********
+Inner Exception Type: System.Web.HttpException
+Inner Exception: El archivo no existe.
+Inner Source: System.Web
+Inner Stack Trace: 
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+Exception Type: System.Web.HttpException
+Exception: Error HTTP tipo 4xx.
+Source: ~/Errores/HttpErrorPage
+Stack Trace: 
+********** 01/08/2013 11:49:57 p.m. **********
+Inner Exception Type: System.InvalidOperationException
+Inner Exception: Un extensor no puede estar en un UpdatePanel diferente del control que lo extiende.
+Inner Source: System.Web.Extensions
+Inner Stack Trace: 
+   en System.Web.UI.ExtenderControl.RegisterWithScriptManager()
+   en System.Web.UI.ExtenderControl.OnPreRender(EventArgs e)
+   en AjaxControlToolkit.ExtenderControlBase.OnPreRender(EventArgs e)
+   en AjaxControlToolkit.ModalPopupExtender.OnPreRender(EventArgs e)
+   en System.Web.UI.Control.PreRenderRecursiveInternal()
+   en System.Web.UI.Control.PreRenderRecursiveInternal()
+   en System.Web.UI.Control.PreRenderRecursiveInternal()
+   en System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Se produjo una excepción de tipo 'System.Web.HttpUnhandledException'.
+Source: Generado en página por defecto
+Stack Trace: 
+   en System.Web.UI.Page.HandleError(Exception e)
+   en System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   en System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   en System.Web.UI.Page.ProcessRequest()
+   en System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   en System.Web.UI.Page.ProcessRequest(HttpContext context)
+   en ASP.usuariosadmin_aspx.ProcessRequest(HttpContext context) en c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\a9cab8c1\35042e8a\App_Web_e2vv2xni.13.cs:línea 0
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 01/08/2013 11:56:46 p.m. **********
+Inner Exception Type: System.Web.HttpException
+Inner Exception: El archivo no existe.
+Inner Source: System.Web
+Inner Stack Trace: 
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+Exception Type: System.Web.HttpException
+Exception: Error HTTP tipo 4xx.
+Source: ~/Errores/HttpErrorPage
+Stack Trace: 
+********** 01/08/2013 11:59:38 p.m. **********
+Inner Exception Type: System.Web.HttpException
+Inner Exception: El archivo no existe.
+Inner Source: System.Web
+Inner Stack Trace: 
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+Exception Type: System.Web.HttpException
+Exception: Error HTTP tipo 4xx.
+Source: ~/Errores/HttpErrorPage
+Stack Trace: 

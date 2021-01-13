@@ -1,0 +1,242 @@
+﻿body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:90%;
+	margin:2px 5%;
+	background:#d4f897;
+	background:#D3EBDF; /*muy acorde*/
+	background:#4F6D54;
+	background:#CFEA83;
+	background:#E6FBBD;
+	background:#EBFCCD;	
+		
+	min-width:600px;		/* Minimum width of layout - remove line if not required */
+					/* The min-width property does not work in old versions of Internet Explorer */
+	font-size:90%;
+}
+
+a, a:hover, a:active {
+	text-decoration:none;
+}
+
+img 
+{
+    border:none;
+}
+
+h1, h2, h3 {
+	margin:.2em 0 .2em 0;
+	padding:0;
+}
+p {
+	margin:.4em 0 .8em 0;
+	padding:0;
+}
+
+#ads img {
+	display:block;
+	padding-top:10px;
+}
+
+/* Header styles */
+#header {
+	clear:both;
+	float:left;
+	width:100%;
+	background:#006f58;
+}
+
+#header {
+	border-bottom:1px solid #003e1c;
+}
+
+#header hi 
+{
+    width:300px; 
+    margin-top:0px;
+    }
+
+/* column container */
+.colmask {
+	position:relative;	/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;		/* This chops off any overhanging divs */
+}
+
+/* common column settings */
+.colright,
+.colmid,
+.colleft {
+	float:left;
+	width:100%;			/* width of page */
+	position:relative;
+}
+
+.col1,
+.col2,
+.col3 {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;	/* no left and right padding on columns, we just make them narrower instead 
+					only padding top and bottom is included here, make it whatever value you need */
+	overflow:hidden;
+}
+/* 3 Column settings */
+
+/* Orden: [col2] [col1] [col3]*/
+.threecol {
+	background:#568456;		/* right column background colour */
+}
+.threecol .colmid {
+	right:20%;			    /* width of the right column */
+	background:#d4f897;		/* center column background colour */
+}
+.threecol .colleft {
+	right:60%;			/* width of the middle column */
+	background:#568456;	/* left column background colour */
+}
+.threecol .col1 {
+	width:60%;			/* width of center column content (column width minus padding on either side) */
+	left:100%;			/* 100% plus left padding of center column */
+}
+.threecol .col2 {
+	width:18%;			/* Width of left column content (column width minus padding on either side) */
+	left:21%;			/* width of (right column) 
+                           plus (center column left and right padding) 
+                           plus (left column left padding) */
+}
+.threecol .col3 {
+	width:18%;			/* Width of right column content (column width minus padding on either side) */
+	left:84%;			/* Please make note of the brackets here
+    				       (100% - left column width) 
+                        plus (center column left and right padding) 
+                        plus (left column left and right padding) 
+                        plus (right column left padding) */
+}
+
+.threecol .col2 div, 
+.threecol .col3 div
+{
+    text-align:center;
+}
+
+.threecol .col2 div, .threecol .col3 div
+{
+    margin:0px;
+    padding:0px;
+    text-align:left;    
+}
+
+
+/* Footer styles */
+#footer {
+	clear:both;
+	float:left;
+	width:100%;
+	border-top:1px solid #003e1c;
+	background:#006f58;
+}
+#footer p {
+	padding:0px;
+	margin:0;
+	text-align:right;
+}
+
+#FCIB_WebPage {
+	height:80px;
+	width:200px;
+	margin: -7px;		
+	margin-top:-15px;
+	padding-top:15px;
+
+}
+		
+h1.FCIB_WebPage_Link a {
+	display: block;
+	width: 210px;
+	height:80px;
+	background: url('../images/BtnFCIBWeb.png') no-repeat;
+	float: left;
+	padding-top:5px;
+	padding-left:-2px;
+	text-indent: -5000px;
+	margin: auto;
+}
+
+
+	
+.fb-like-box, #fb-like-box 
+{
+    display:block;
+    position:fixed;
+	margin: 1px 3px;
+	border-bottom-color:Olive;
+	margin-top: 40px;
+	left:10px;
+	width:190px;
+	}
+
+	
+#iframeGoogle
+{
+    width:100%;    
+}
+
+#Twitter 
+{
+    clear:both;
+    display:block;
+    position:relative;
+    margin-top:140px;
+	float:left;	
+	list-style-type: none;
+	text-decoration:none;	
+	border-right: 2px solid #CCCCCC;
+	border-bottom: 2px solid #CCCCCC;
+	background:#CCCCCC;
+	height:335;
+	
+}
+
+.twitter-timeline
+{    
+    background: #CCCCCC;
+}
+	
+#GoogleFeeds 
+{
+    clear:both;
+    display:block;
+    position:relative;
+    margin-top:150px;
+	height:350px;
+	min-height:350px;
+	float:left;	
+    left:10px;
+	list-style-type: none;
+	text-decoration:none;
+}	
+
+.Eventos
+{   
+    display:block;
+    position:relative;    
+    top:50px;
+    min-height:320px;
+	height:320px;
+	width:190px;	
+    background: #568456;    
+    left:0px;    
+}
+
+#tabPanel 
+{
+    min-height:320px;
+	height:320px;
+    }
+
+
+

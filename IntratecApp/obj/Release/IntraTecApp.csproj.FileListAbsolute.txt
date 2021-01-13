@@ -1,0 +1,5 @@
+D:\Sites\Intratec_App_Fuente_Def\IntratecApp\bin\IntratecApp.dll
+D:\Sites\Intratec_App_Fuente_Def\IntratecApp\bin\IntratecApp.pdb
+D:\Sites\Intratec_App_Fuente_Def\IntratecApp\obj\Release\IntraTecApp.csprojResolveAssemblyReference.cache
+D:\Sites\Intratec_App_Fuente_Def\IntratecApp\obj\Release\IntratecApp.dll
+D:\Sites\Intratec_App_Fuente_Def\IntratecApp\obj\Release\IntratecApp.pdb

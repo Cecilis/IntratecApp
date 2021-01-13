@@ -1,0 +1,26 @@
+********** 18/02/2018 02:30:59 a.m. **********
+Inner Exception Type: System.Data.SqlClient.SqlException
+Inner Exception: The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+Inner Source: .Net SqlClient Data Provider
+Inner Stack Trace: 
+   en IntraTecApp.Index.ProximosCumpleanios() en d:\recuperado\INTRATEC - DEF\Intratec_App_Fuente\Intratec_App_Fuente\IntratecApp\Index.aspx.cs:línea 183
+   en IntraTecApp.Index.Page_Load(Object sender, EventArgs e) en d:\recuperado\INTRATEC - DEF\Intratec_App_Fuente\Intratec_App_Fuente\IntratecApp\Index.aspx.cs:línea 141
+   en System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   en System.Web.UI.Control.OnLoad(EventArgs e)
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Se produjo una excepción de tipo 'System.Web.HttpUnhandledException'.
+Source: Generado en página por defecto
+Stack Trace: 
+   en System.Web.UI.Page.HandleError(Exception e)
+   en System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   en System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   en System.Web.UI.Page.ProcessRequest()
+   en System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   en System.Web.UI.Page.ProcessRequest(HttpContext context)
+   en ASP.index_aspx.ProcessRequest(HttpContext context) en c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\041355b1\e3ea1d0d\App_Web_5ecfeduc.0.cs:línea 0
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+

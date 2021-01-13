@@ -1,0 +1,30 @@
+﻿
+        .box{font-family: “Lucida Grande”, Tahoma;font-size: 12px;font-weight:bold;font-variant:normal;text-transform: uppercase;background-color:#568456; z-index:6; height:380px; margin: 30px auto 0px 4px; padding-right:1px;}
+        .box a  {text-decoration:none;}
+        .box a:hover {text-decoration:none}
+
+        #tabMenu {margin:0;padding:0 0 0 15px;list-style:none;}
+        #tabMenu li {float:left;height:32px;width:39px;cursor:pointer;cursor:hand}
+
+        li.comments {background:url('../images/tabComment.png') no-repeat 0 -32px; }
+        li.posts {background:url('../images/tabStar.png') no-repeat 0 -32px; }
+        li.category {background:url('../images/tabFolder.png') no-repeat 0 -32px; }
+
+        li.mouseover {background-position:0 0;}
+        li.mouseout {background-position:0 -32px;}
+        li.selected {background-position:0 0;}
+
+        .box {width:202px;}
+        .boxTop {background:url('../images/boxTop.png') no-repeat; margin-right:20px;  height:12px;clear:both; width:200px;}
+        .boxBody {background-color:#ecf8fb; margin-top:0px; height:250px; border-color:#FFF; width:200px; padding-right:-200px;}
+        .boxBottom {background:url('../images/boxBottom.png') no-repeat; height:11px; padding:auto;width:200px;}
+
+        .boxBody div.parent {display:none;}
+        .boxBody div.show {display:block;}
+        .boxBody div.noVinetas ul {list-style-image: none;}
+
+        .boxBody div ul {margin:0px 1px 0px 5px;padding:0;width:5px; height: 77px;}
+        .boxBody div li {border-bottom:1px dotted #8e8e8e; padding:4px 0;cursor:hand;cursor:pointer; text-decoration:none; list-style:none;}
+        .boxBody div ul li.last {border-bottom:none;}
+        .boxBody div li span {font-size:8px;font-style:italic; color:#888;}
+     

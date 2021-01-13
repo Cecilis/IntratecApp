@@ -1,0 +1,809 @@
+﻿.Panel
+{
+    display:block;
+    position:relative;
+    margin: 0px;
+    width:97%;
+    height:25px;
+    border-style: solid;
+    border-color:ActiveBorder;
+    border-width:thin;   
+    vertical-align:middle;  
+    text-align:center;
+    }
+
+.PanelNoBorde
+{
+    display:block;
+    position:relative;
+    margin: 0px;
+    width:97%;
+    height:25px;
+    vertical-align:middle;  
+    text-align:center;
+    border:none;
+    }
+    
+.FieldSet
+{
+    clear:both;
+    display:block;
+    margin: 0px;
+    padding:5px;
+    width:98%;
+    border: 1px solid #CCCCCC;
+    text-align:center;
+    vertical-align:middle;
+    
+}
+
+.FieldSetClaro
+{
+    clear:both;
+    display:block;
+    margin: 0px;
+    padding:5px;
+    width:98%;
+    border: 1px solid #CCCCCC;
+    text-align:center;
+    vertical-align:middle;  
+    background: #568456;  
+}
+
+
+
+.FieldSetMedium
+{
+    clear:both;
+    height:auto;
+    margin: 5px 5px;
+    padding: 5px;
+    width:100%;
+    border-style: solid;
+    border-color:ActiveBorder;
+    border-width:thin;  
+    background:#ecf8fb;
+    }
+    
+.FieldSetDark  
+{
+    clear:both;
+    height:auto;
+    margin: 3px;
+    padding: 3px;
+    width:100%;
+    border-style:none;
+    border-color:ActiveBorder;
+    border-width:thin;
+    background:#006f58;
+    }
+
+.FieldSetDarkWB 
+{
+    clear:both;
+    height:auto;
+    margin: 3px;
+    padding: 3px;
+    width:100%;
+    border-style: solid;
+    border-color:ActiveBorder;
+    border-width:thin;
+    background:#006f58;
+    }    
+
+#uppIndex 
+{
+    border:none;
+    }
+    
+asp:Image#previewImage 
+{
+    border:1px solid #CCC;
+    
+    }
+
+.Cabecera 
+{
+    text-decoration:none;
+    list-style:none;
+    background-color: #006f58;
+    background-position: right center;
+    background-repeat:no-repeat;
+    vertical-align:text-bottom;
+    text-align:center;
+}
+
+.TitDocumentos 
+{ 
+    font-family: “Lucida Grande”, Tahoma;
+    font-size: 10px;
+    font-weight: lighter;
+    font-variant: normal;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center!important;
+    letter-spacing: 0.5em;
+}    
+
+.Titulos 
+{ 
+    font-family: “Lucida Grande”, Tahoma;
+    font-size: 15px;
+    font-weight:bold;
+    font-variant:normal;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center!important;
+    letter-spacing: 0.3em;
+    vertical-align:text-bottom;
+}
+
+.Titulos10
+{ 
+    font-family: “Lucida Grande”, Tahoma;
+    font-size: 10px;
+    font-weight: lighter;
+    font-variant:normal;
+    text-transform: uppercase;
+    color: White;
+    text-align: center!important;
+    letter-spacing: 0.5em;
+    vertical-align:text-bottom;
+}
+
+
+.ContenidoPopUp 
+{ 
+    font-family: “Lucida Grande”, Tahoma;
+    font-size: 10px;
+    font-weight: lighter;
+    font-variant: normal;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center!important;
+    letter-spacing: 0.5em;
+} 
+
+.Sub-titulos 
+{
+    vertical-align:middle;
+    text-align:center;
+    font-family:Verdana;
+    font-size:large;
+    font-style:normal;
+    font-weight:bold;
+    color:#375d84;
+  }
+
+.Etiquetas 
+{
+    vertical-align:middle;
+    text-align:justify;
+    font-size:11px;
+    font-weight:bold;
+    font-family: “Lucida Grande”, Tahoma;
+    font-variant:normal;
+    text-transform: uppercase;
+    color:#375d84; 
+    }
+
+.EtiquetasLBFO 
+{
+    vertical-align:middle;
+    text-align:justify;
+    font-size:11px;
+    font-weight:bold;
+    font-family: “Lucida Grande”, Tahoma;
+    font-variant:normal;
+    text-transform: uppercase;
+    color:#FFFFFF;  
+    background:#006f58;    
+    }
+    
+.EtiquetasLBMD
+{
+    vertical-align:middle;
+    text-align:justify;
+    font-size:11px;
+    font-weight:bold;
+    font-family: “Lucida Grande”, Tahoma;
+    font-variant:normal;
+    text-transform: uppercase;
+    color:#FFFFFF;  
+    background:#006f58;    
+}
+
+.EtiquetasLAMD
+{
+    vertical-align:middle;
+    text-align:justify;
+    font-size:10px;
+    font-weight:bold;
+    font-family: “Lucida Grande”, Tahoma;
+    font-variant:normal;
+    text-transform: uppercase;
+    color:#375d84;  
+    background:#ecf8fb;    
+}
+
+    
+
+.RSSOrigenes
+{
+    font-family: “Lucida Grande”, Tahoma;
+    font-size: 5px;
+    font-weight: lighter;
+    font-variant: normal;
+    text-transform: uppercase;
+    color: #666666;
+    margin-top: 10px;
+    text-align: center!important;
+    letter-spacing: 0.3em;
+    
+    }
+
+.Campos9
+{
+    vertical-align:text-bottom;
+    font-family:Verdana;
+    font-size:8.5px;
+    font-style:normal;
+    color:#000000;
+    background:#ecf8fb;
+    text-transform:none;
+    padding:0px;
+}    
+
+.Campos 
+{
+    font-size: 100%;  
+    font-family: inherit;  
+    font-weight:bold;
+    border: thin solid ActiveBorder;
+    vertical-align:text-bottom;
+    font-family:Verdana;
+    font-size:12px;
+    color:#000000;
+    background:#CCCCCC;
+    text-transform:capitalize;
+    margin-top: 0px;
+    margin-left: 0px;
+    }
+
+.CamposSinFondo
+{
+    font-size: 100%;  
+    font-family: inherit;  
+    font-weight:bold;
+    vertical-align:text-bottom;
+    font-family:Verdana;
+    font-size:12px;
+    color:#000000;
+    text-transform:capitalize;
+    margin-top: 0px;
+    margin-left: 0px;
+    height:18px;
+}
+    
+.Campos10
+{
+    font-size: 100%;  
+    font-family: inherit;  
+    font-weight:normal;
+    vertical-align:text-bottom;
+    font-size:10px;
+    font-style:normal;
+    font-weight:normal;
+    margin-top: 0px;
+    margin-left: 0px;
+    
+}
+
+.CamposGrid
+{
+    font-family: inherit;  
+    vertical-align:text-bottom;
+    font-size:11px;
+    font-style:normal;
+    font-weight:bold;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align:left;    
+    background: #ecf8fb;  
+}
+
+.TitulosGrid, .TitulosGrid a
+{
+
+    font-family: “Lucida Grande”, Tahoma;
+    font-size: 15px;
+    font-style:normal;
+    font-weight:bold;
+    font-variant:normal;
+    text-transform: uppercase;
+    vertical-align:text-bottom;
+    font-size:11px;
+    color: #FFF;
+    text-align: center!important;
+    letter-spacing: 0.3em;
+    vertical-align:text-bottom; 
+    height: 21px; 
+    color:#FFFFFF;
+    background:#00293f;        
+    margin-top: 0px;
+    margin-left: 0px;
+    text-decoration:none;
+}
+
+.EtiquetaLBFT
+{
+    font-family: “Lucida Grande”, Tahoma;
+    font-size: 15px;
+    font-style:normal;
+    font-weight:bold;
+    font-variant:normal;
+    text-transform: uppercase;
+    vertical-align:text-top;
+    font-size:13px;
+    color: #FFF;
+    text-align: center!important;
+    letter-spacing: 0.2em;
+    color:#FFFFFF;      
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.TitulosGridMin
+{
+    font-family: “Lucida Grande”, Tahoma;
+    font-size: 16px;
+    font-style:normal;
+    font-weight:bold;
+    font-variant:normal;
+    vertical-align:text-bottom;
+    font-size:11px;
+    color: #FFF;
+    text-align: center!important;
+    letter-spacing: 0.3em;
+    vertical-align:text-bottom; 
+    height: 21px; 
+    color:#FFFFFF;
+    background:#499274;        
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.HTMLEditor 
+{
+
+    border: thin solid ActiveBorder;
+    vertical-align:text-bottom;
+    font-family:Verdana;
+    font-size:12px;
+    font-style:normal;
+    font-weight:normal;
+    color:#000000;
+    background:#ecf8fb;
+        
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.AlaDerecha 
+{
+    text-align:right Important!;
+    }
+    
+.AlaIzquierda
+{
+    text-align:left Important!;
+    }    
+    
+.AlCentro 
+{
+    align:center;
+    text-align:center Important!;
+    }    
+
+.Boton, #Boton
+{
+    background: #006f58;
+    font-family: “Lucida Grande”, Tahoma;
+    font-size: 10px;
+    font-weight: lighter;
+    font-variant:normal;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center!important;
+    letter-spacing: 0.5em;
+    border-bottom:  solid thin #CCC;
+    border-top: solid thin #CCC;
+    vertical-align:text-bottom;
+    }
+    
+.BotonLB, #BotonLB
+{
+    background: #006f58;
+    font-family: “Lucida Grande”, Tahoma;
+    font-size: 10px;
+    font-weight:bold;
+    font-variant:normal;
+    text-transform: uppercase;
+    color:White;
+    text-align: center!important;
+    letter-spacing: 0.5em;
+    border-bottom:  solid thin #CCC;
+    border-top: solid thin #CCC;
+    margin-left: 0px;
+    margin-bottom:0px;
+    }    
+    
+.BotonLBBuscar ui-state-active ui-corner-all, #BotonLBBuscar ui-state-active ui-corner-all
+{
+    background: #006f58;
+    font-family: “Lucida Grande”, Tahoma;
+    font-size: 6px;
+    font-weight:bold;
+    font-variant:normal;
+    text-transform: uppercase;
+    color:White;
+    text-align: center!important;
+    letter-spacing: 0.5em;
+    border-bottom:  solid thin #CCC;
+    border-top: solid thin #CCC;
+    margin-left: 0px;
+    margin-bottom:0px;
+    }        
+
+.BotonLBNB, #BotonLBNB
+{
+    background: #006f58;
+    font-family: “Lucida Grande”, Tahoma;
+    font-size: 10px;
+    font-weight:bolder;
+    font-variant:normal;
+    text-transform: uppercase;
+    color:#FFF;
+    text-align: center!important;
+    letter-spacing: 0.5em;
+    margin-left: 0px;
+    margin-bottom:0px;
+    height: 30px;
+} 
+
+#BotonLB a.link, #BotonLBNB a.link 
+{
+    text-decoration: none;
+    }
+   
+    
+#Validator, .Validator
+{
+    
+    vertical-align:middle;
+    text-align:justify;
+    font-family:Verdana;
+    font-size:10px;
+    font-style:normal;
+    font-weight:normal;
+    color:#c40c3d;
+    }
+
+.Info
+{
+    vertical-align:middle;
+    text-align:justify;
+    font-family:Verdana;
+    font-size:10px;
+    font-style:normal;
+    font-weight:bold;
+    color:#375d84;
+    }
+    
+.Resultado
+{
+    vertical-align:middle;
+    text-align:justify;
+    font-family:Verdana;
+    font-size:12px;
+    font-style:normal;
+    font-weight:bold;
+    text-transform:none;
+    color:Blue;
+    }
+    
+ .EResultado
+{
+    vertical-align:middle;
+    text-align:justify;
+    font-family:Verdana;
+    font-size:12px;
+    font-style:normal;
+    font-weight:bold;
+    text-transform:none;
+    color:Red;
+    height:25px;
+    }
+
+.Errores
+{
+    vertical-align:middle;
+    text-align:justify;
+    font-family:Verdana;
+    font-size:10px;
+    font-style:normal;
+    font-weight:bold;
+    color:Red;
+    height:25px;
+    }    
+    
+#asp:Textbox, .asp:Textbox, .DropDownList, #DropDownList
+{
+    background:#006f58;
+    height:35px;
+    
+    }
+    
+#asp:Button, .asp:Button
+{
+    background:#006f58;
+    min-height:30px;
+    
+    }
+    
+#Tablas tr 
+{
+        height:8px;
+    }
+    
+.AreaValidacion 
+{
+    position:relative;
+    top: -19px;
+    left: 133px;
+    width: 143px;
+}
+
+.FileUploadClass
+{
+    vertical-align:top;
+    text-align:justify;
+    font-size:11px;
+    font-style:normal;
+    font-weight:bold;
+    color:#375d84;
+    background:url('../images/FondoFCIB_1.jpg') repeat center;
+}
+
+.FileUploadClass Button, #FileUploadClass Button
+{
+
+    
+}
+
+.divUploadFoto
+{
+   background: url('../images/BtnFCIBWeb.png') no-repeat; 
+    
+    }
+    
+
+ajaxToolkit:Editor
+{
+    color:#375d84;
+    }
+    
+ 
+ .CalendarioPopUp 
+ {
+     background:#499274;
+     color:#FFFFFF;
+     font-size:12px;
+     }
+     
+ .HeaderTabla 
+ {
+     
+    vertical-align:top;
+    text-align:justify;
+    font-size:11px;
+    font-style:normal;
+    font-weight:bold;
+    color:#FFF;
+    background: #006f58; 
+     }
+     
+.pnlProgressBar_old
+{
+    background-color: RED;
+    font-size:13px;
+    font-weight:bold;
+    font-family:Verdana;
+    color: White;
+    top: 1px;
+    color: white;
+    position:absolute;
+    right: 16px;
+    z-index: 999;    
+}     
+
+.pnlProgressBar
+{
+    background:#d4f897;
+    background:#000000;
+    color: White; 
+    top: 0px;
+    right:0px;
+    position:absolute;
+    z-index: 999999;    
+    width:100%; 
+    height:500%; 
+    opacity:0.3;
+    overflow: hidden;    
+}
+
+.pnlProgressBar div
+{
+    background:Red;
+    font-size:12px;
+    font-weight:bolder;
+    color:White;
+    font-family:Verdana;
+    text-align:center;
+    vertical-align:middle;    
+    position: fixed;
+    top: 30%;
+    top:50px;
+    right:50px;
+    margin-top: -7px;
+    margin-left: -104px;  
+    z-index: 99999999;      
+}
+
+.pnlProgressBar img
+{
+    background:#2A4763;
+    background:#000000;
+    position: fixed;
+    top: 35px;
+    right:18px;
+    margin-top: -7px;
+    margin-left: -104px;  
+    z-index: 99999999;  
+} 
+
+.ajax__fileupload_selectFileContainer {
+  position: relative;
+  float: right;
+  right: 0px; 
+}
+
+.ajax__fileupload_dropzone 
+{
+    border:dotted 1px #B2D1E0 !important;
+    color:#B2D1E0 !important;
+}
+
+
+
+
+
+ /* Header */
+.loginDisplay
+{
+    font-family: “Lucida Grande”, Tahoma;
+    font-size: 12px;
+    font-weight:bold;
+    font-variant:normal;
+    text-transform: uppercase;
+    display: block;
+    float:right;
+    text-align: right;
+    padding-right: 10px;
+    color: White;
+    width:300px;
+    margin-top:-30px;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+        cursor: hand; 
+    cursor: pointer;
+}
+
+
+
+
+/* d4f897 */
+.ExpandirMaximo 
+{
+    position:relative;
+    display:block;
+    width:100%;
+    height:auto; 
+}
+
+.scrollVerticalSolo 
+{
+    overflow:auto;
+    overflow-x: hidden; 
+    overflow-y: scroll;   
+ }
+ 
+ .Logos_PiePagina 
+ {
+     height:10px;
+     width:auto;         
+     }
+
+.ExpandirMaximoMitad
+{
+    position:relative;
+    display:bloc;k
+    width:100%;  
+    top: 0px;
+    left: 0px;
+}
+
+
+.AloAncho 
+{
+    position: absolute;
+    left: 0;
+    width: 100%;    
+    }
+    
+.Div10
+{
+    width:100%;
+    height:10px;    
+    }
+    
+.Div30
+{
+    width:100%;
+    height:30px;    
+    }    
+    
+.GridHeaderStyle a {
+    color: #FFFFFF; /* or whatever */
+}
+
+.Foto
+{
+    border: 1px solid #003e1c;    
+}   
+
+
+#overlayDiv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:99;
+}
+
+#DeshabilitarFileUpload {
+    position: fixed;
+    width: auto;
+    height: 30px;
+    z-index:99;    
+}
+
+.modalBackground 
+{
+    background-color:Gray;
+    opacity:0.7;
+}

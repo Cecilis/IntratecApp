@@ -1,0 +1,107 @@
+﻿/*.ajax__tab_header: A container element that wraps all of the tabs at the top of the TabContainer. Child CSS classes:.ajax__tab_outer.
+
+.ajax__tab_outer: An outer element of a tab, often used to set the left-side background image of the tab.Child CSS classes: .ajax__tab_inner.
+
+.ajax__tab_inner: An inner element of a tab, often used to set the right-side image of the tab. Child CSS classes:.ajax__tab_tab.
+
+.ajax__tab_tab: An element of the tab that contains the text content. Child CSS classes:none.
+
+.ajax__tab_body: A container element that wraps the area where a TabPanel is displayed. Child CSS classes: none.
+
+.ajax__tab_hover . This is applied to a tab when the mouse is hovering over. Child CSS classes:.ajax__tab_outer.
+
+.ajax__tab_active: This is applied to a tab when it is the currently selected tab. Child CSS classes:.ajax__tab_outer
+
+*/
+
+    .Eventos 
+    {
+        height:400px;
+        margin-left: 0px;       
+        background:#568456;      
+    }
+
+    .TabStyle 
+    {
+        width:200px;   
+        float:left; 
+        height:280px;  
+        padding-top:20px; 
+        }
+
+    .TabStyle .ajax__tab_header
+    {
+        font-family: "Helvetica Neue" , Arial, Sans-Serif;
+        font-size: 14px;
+        font-weight:bold;
+        display: block;
+        border-bottom:solid 1px #d7d7d7;
+     }
+     
+     .TabStyle .ajax__tab_tab          
+     {
+         width:30px;
+         height:30px;  
+     }
+     
+    .TabStyle .ajax__tab_tab .tbpEvenAniversarios
+     {
+         background:url('../images/favicon.ico') no-repeat left;   
+             
+      }
+      
+     /*url('../images/favicon.ico') no-repeat*/
+    .TabStyle .ajax__tab_header .ajax__tab_outer 
+    {
+        border-color: #006f58;
+        color: #222;
+        padding-left: 10px;
+        margin-right: 3px;
+        border:solid 1px #d7d7d7;
+        background: #000;
+    }
+    
+    
+    .TabStyle .ajax__tab_header .ajax__tab_outer 
+    {
+        background:#006f58;
+        border:solid 1px #d7d7d7; 
+        
+        }
+    
+    .TabStyle .ajax__tab_header .ajax__tab_inner
+    {
+        border-color: #666;
+        padding: 3px 10px 2px 0px;
+        background: #006f58;
+    }
+    
+    .TabStyle .ajax__tab_hover .ajax__tab_outer
+    {
+        background-color:#006f58;
+    }
+    .TabStyle .ajax__tab_hover .ajax__tab_inner
+    {
+        color: #fff;
+    }
+    .TabStyle .ajax__tab_active .ajax__tab_outer
+    {
+        border-bottom-color: #ffffff;
+        background: #006f58;
+    }
+    .TabStyle .ajax__tab_active .ajax__tab_inner
+    {
+        color: #006f58;
+        border-color: #333;
+    }
+    .TabStyle .ajax__tab_body
+    {
+        font-family: verdana,tahoma,helvetica;
+        font-size: 10pt;
+        background-color: #006f58;
+        border-top-width: 0;
+        border: solid 1px #d7d7d7;
+        border-top-color: #568456;
+        height:230px;
+
+    }
